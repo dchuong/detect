@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  detectObject
+//
+//  Created by admin on 11/6/14.
+//  Copyright (c) 2014 admin. All rights reserved.
+//
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
